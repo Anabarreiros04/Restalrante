@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="icon" type="image/png" href="img/logo.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio — La Casita Mexicana</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <head>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="index.html">La Casita Mexicana</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Página Inicial</a></li>
+      <li><a href="Cardapio.html" class="active">Cardápio</a></li>
+      <li><a href="Endereço.html">Endereço</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="cardapio-hero">
+    <p class="hero-eyebrow">Sabores Ancestrais do México</p>
+    <h1 class="hero-title">
+      Nosso
+      <em>Cardápio</em>
+    </h1>
+    <div class="hero-divider"><span>✦</span></div>
+  </div>
+
+  <!-- FILTROS (decorativo) -->
+  <div class="filtros">
+    <button class="filtro-btn ativo">Tudo</button>
+    <button class="filtro-btn">Entradas</button>
+    <button class="filtro-btn">Tacos</button>
+    <button class="filtro-btn">Pratos Principais</button>
+    <button class="filtro-btn">Sobremesas</button>
+    <button class="filtro-btn">Bebidas</button>
+  </div>
+
+
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <!-- CATEGORIA 1 — ENTRADAS                   -->
+  <!-- Para adicionar mais pratos: copie um     -->
+  <!-- bloco <div class="prato-card"> e edite   -->
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <section class="categoria">
+    <div class="categoria-header">
+      <span class="categoria-icon">🌿</span>
+      <h2 class="categoria-titulo">En<em>tradas</em></h2>
+      <div class="categoria-line"></div>
+    </div>
+
+    <div class="pratos-grid">
+
+      <!-- PRATO — copie este bloco para adicionar mais -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/id2.png" alt="Guacamole">
+        <!-- Se não tiver imagem, apague a linha acima e descomente abaixo: -->
+        <!-- <div class="prato-sem-img">🥑</div> -->
+        <div class="prato-card-body">
+          <span class="prato-tag">Entrada</span>
+          <h3 class="prato-nome">Polvo grelhado na tortilha</h3>
+          <p class="prato-descricao">polvo grelhado, servido em uma autêntica tortilha de milho azul e acompanhado pela nossa exclusiva salsa de manga e habanero</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 79,90</span>
+            <!-- Escolha um badge ou remova: -->
+            <!-- <span class="prato-badge-novo">Novo</span> -->
+            <!-- <span class="prato-badge-destaque">✦ Destaque</span> -->
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+      <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/buaca.PNG" alt="Guacamole">
+        <!-- Se não tiver imagem, apague a linha acima e descomente abaixo: -->
+        <!-- <div class="prato-sem-img">🥑</div> -->
+        <div class="prato-card-body">
+          <span class="prato-tag">Entrada</span>
+          <h3 class="prato-nome"> Guacamole com Totopos          </h3>
+          <p class="prato-descricao">guacamole cremoso coroada com pico de gallo (tomate e cebola), queijo fresco esfarelado, rodelas de jalapeño e um toque de coentro.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 35,00</span>
+            <!-- Escolha um badge ou remova: -->
+            <!-- <span class="prato-badge-novo">Novo</span> -->
+            <!-- <span class="prato-badge-destaque">✦ Destaque</span> -->
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+   <!-- PRATO -->
+   <div class="prato-card">
+    <img class="prato-card-img" src="img/quejo.PNG" alt="Guacamole">
+    <!-- Se não tiver imagem, apague a linha acima e descomente abaixo: -->
+    <!-- <div class="prato-sem-img">🥑</div> -->
+    <div class="prato-card-body">
+      <span class="prato-tag">Entrada</span>
+      <h3 class="prato-nome"> Queso Fundido          </h3>
+      <p class="prato-descricao">queijo derretido e elástico, finalizada com chorizo crocante, pimentas poblano e um toque de queijo fresco com coentro.</p>
+      <div class="prato-footer">
+        <span class="prato-preco">R$ 69,90</span>
+        <!-- Escolha um badge ou remova: -->
+        <!-- <span class="prato-badge-novo">Novo</span> -->
+        <!-- <span class="prato-badge-destaque">✦ Destaque</span> -->
+      </div>
+    </div>
+  </div>
+  <!-- FIM DO PRATO -->
+    </div>
+  </section>
+
+  <div class="separador"><hr></div>
+
+
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <!-- CATEGORIA 2 — TACOS                      -->
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <section class="categoria">
+    <div class="categoria-header">
+      <span class="categoria-icon">🌮</span>
+      <h2 class="categoria-titulo">Ta<em>cos</em></h2>
+      <div class="categoria-line"></div>
+    </div>
+
+    <div class="pratos-grid">
+
+      <!-- PRATO — Taco de Polvo (já existia no site) -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/taco.p.png" alt="Taco de Polvo">
+        <div class="prato-card-body">
+          <span class="prato-tag">Taco</span>
+          <h3 class="prato-nome">Taco de Polvo Grelhado</h3>
+          <p class="prato-descricao">Coentro fresco, rabanete crocante, toque defumado do polvo e salsa artesanal sobre tortilha de milho azul.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 39,90</span>
+            <span class="prato-badge-destaque">✦ Destaque</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+      <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/carnita.PNG" alt="Tacos de Carnitas">
+        <div class="prato-card-body">
+          <span class="prato-tag">Taco</span>
+          <h3 class="prato-nome">Taco de Carnita</h3>
+          <p class="prato-descricao">carne de porco desfiada, cozida lentamente até ficar suculenta, servida sobre tortilhas de milho macias.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 39,90</span>
+            <span class="prato-badge-destaque">✦ Destaque</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+      <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/frango.PNG" alt="Tacos de galeto">
+        <div class="prato-card-body">
+          <span class="prato-tag">Taco</span>
+          <h3 class="prato-nome">Tacos de galeto</h3>
+          <p class="prato-descricao">frango desfiado e suculento em tortilhas de milho macias, finalizado com o frescor do coentro, cebola, rabanetes e um toque de queijo.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 39,90</span>
+            <span class="prato-badge-destaque">✦ Destaque</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+      <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/vega.PNG" alt="Tacos de galeto">
+        <div class="prato-card-body">
+          <span class="prato-tag">Taco</span>
+          <h3 class="prato-nome">Tacos Vegetariano Gourmet</h3>
+          <p class="prato-descricao">Vegetais grelados com molho da casa</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 39,90</span>
+            <span class="prato-badge-destaque">✦ Destaque</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+
+    </div>
+  </section>
+
+  <div class="separador"><hr></div>
+
+
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <!-- CATEGORIA 3 — PRATOS PRINCIPAIS          -->
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <section class="categoria">
+    <div class="categoria-header">
+      <span class="categoria-icon">🍽️</span>
+      <h2 class="categoria-titulo">Pratos <em>Principais</em></h2>
+      <div class="categoria-line"></div>
+    </div>
+
+    <div class="pratos-grid">
+
+      <!-- PRATO — Pargo (já existia) -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/propaganda.png" alt="Pargo Grelhado ao Achiote">
+        <div class="prato-card-body">
+          <span class="prato-tag">Prato Principal</span>
+          <h3 class="prato-nome">Pargo Grelhado ao Achiote</h3>
+          <p class="prato-descricao">Peixe branco grelhado com tempero ancestral do achiote. Acompanha tortilhas de milho azul e salsa de tomate assado.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 80,00</span>
+            <span class="prato-badge-destaque">✦ Destaque</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+      <!-- PRATO — Quesadilla de Camarão (já existia) -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/id3.png" alt="Quesadilla de Camarão">
+        <div class="prato-card-body">
+          <span class="prato-tag">Prato Principal</span>
+          <h3 class="prato-nome">Quesadilla de Camarão</h3>
+          <p class="prato-descricao">Camarões suculentos com queijo derretido e a nossa exclusiva tortilha de milho azul artesanal.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 79,90</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+      <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/enchiladas verdes.PNG" alt="Quesadilla de Camarão">
+        <div class="prato-card-body">
+          <span class="prato-tag">Prato Principal</span>
+          <h3 class="prato-nome">Enchiladas verdes</h3>
+          <p class="prato-descricao">Tortilhas de milho recheadas com frango, mergulhadas em um molho de tomatillo vibrante e levemente picante.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 69,90</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+    </div>
+  </section>
+
+  <div class="separador"><hr></div>
+
+
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <!-- CATEGORIA 4 — SOBREMESAS                 -->
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <section class="categoria">
+    <div class="categoria-header">
+      <span class="categoria-icon">🍮</span>
+      <h2 class="categoria-titulo">Sobre<em>mesas</em></h2>
+      <div class="categoria-line"></div>
+    </div>
+
+    <div class="pratos-grid">
+
+      <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/churos.PNG" alt="Quesadilla de Camarão">
+        <div class="prato-card-body">
+          <span class="prato-tag">Sobremesa</span>
+          <h3 class="prato-nome">Churros Gourme</h3>
+          <p class="prato-descricao">variando entre doce de leite, chocolate, cremes suaves e toppings como nozes e pretzels.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 79,90</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+
+
+      <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/flan de cajeta.PNG" alt="Quesadilla de Camarão">
+        <div class="prato-card-body">
+          <span class="prato-tag">Sobremesa</span>
+          <h3 class="prato-nome">Flan de Cajeta</h3>
+          <p class="prato-descricao">base de leite condensado e ovos, cozido lentamente em banho-maria até atingir uma textura ultra macia que derrete na boca.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 50,00</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+        <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/paletas.PNG" alt="Quesadilla de Camarão">
+        <div class="prato-card-body">
+          <span class="prato-tag">Sobremesa</span>
+          <h3 class="prato-nome">Paletas Mexicanas Gourmet</h3>
+          <p class="prato-descricao">chocolate no topo, seguido por morango, creme/baunilha, flocos e napolitano. Sabores tropicais como coco e maracujá, além de tendências como pistache e doce de leite.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 10,50</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+    </div>
+  </section>
+
+  <div class="separador"><hr></div>
+
+
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <!-- CATEGORIA 5 — BEBIDAS                    -->
+  <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+  <section class="categoria">
+    <div class="categoria-header">
+      <span class="categoria-icon">🍹</span>
+      <h2 class="categoria-titulo">Be<em>bidas</em></h2>
+      <div class="categoria-line"></div>
+    </div>
+
+    <div class="pratos-grid">
+
+      <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/BEBIDA1.PNG" alt="Quesadilla de Camarão">
+        <div class="prato-card-body">
+          <span class="prato-tag">Bebida</span>
+          <h3 class="prato-nome">Margarita</h3>
+          <p class="prato-descricao">equilíbrio perfeito entre o cítrico, o doce e o toque alcoólico.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 50,00</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+    <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/bebidsa2.PNG" alt="Quesadilla de Camarão">
+        <div class="prato-card-body">
+          <span class="prato-tag">Bebida</span>
+          <h3 class="prato-nome">Horchata de Arroz</h3>
+          <p class="prato-descricao">É uma bebida refrescante, doce e cremosa, perfeita para equilibrar o tempero picante da comida mexicana.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 30,00</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+<!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/bebida3.PNG" alt="Quesadilla de Camarão">
+        <div class="prato-card-body">
+          <span class="prato-tag">Bebida</span>
+          <h3 class="prato-nome">Carajillo</h3>
+          <p class="prato-descricao">combinação de café expresso e um licor, servida com gelo.</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 20,00</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+      <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/frefridois.jfif" alt="Quesadilla de Camarão">
+        <div class="prato-card-body">
+          <span class="prato-tag">Bebida</span>
+          <h3 class="prato-nome">Refrigerante 2l</h3>
+          <p class="prato-descricao">Guarána, Coca cola, Fanta uva, Fanta laranja, Sprite</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 10,00 UN</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+        <!-- PRATO -->
+      <div class="prato-card">
+        <img class="prato-card-img" src="img/bebida.PNG" alt="Quesadilla de Camarão">
+        <div class="prato-card-body">
+          <span class="prato-tag">Bebida</span>
+          <h3 class="prato-nome">Refrigerante Artesanal com especiarias </h3>
+          <p class="prato-descricao">Morango, Maraculj, Fanta uva, laranja, Limão</p>
+          <div class="prato-footer">
+            <span class="prato-preco">R$ 6,00 UN</span>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DO PRATO -->
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand-name">La Casita Mexicana</p>
+        <p class="footer-brand-sub">O verdadeiro sabor ancestral.<br>Uma celebração da cultura e da sofisticação mexicana.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <a href="index.html">Página Inicial</a>
+        <a href="Cardapio.html">Cardápio</a>
+        <a href="Endereço.html">Endereço</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <a href="#">WhatsApp: (00) 00000-0000</a>
+        <a href="#">Instagram: @lacasitamexicana</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 La Casita Mexicana — Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script dos filtros (decorativo) -->
+  <script>
+    document.querySelectorAll('.filtro-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filtro-btn').forEach(b => b.classList.remove('ativo'));
+        btn.classList.add('ativo');
+      });
+    });
+  </script>
+
+</body>
+</html>
